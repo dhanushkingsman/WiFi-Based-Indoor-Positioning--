@@ -1,0 +1,285 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.logo{
+    width:20%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.logo img{
+    width: 22%;
+    border: 0.5px solid white;
+    border-radius: 50px;
+}
+.navbar{
+    z-index: 999;
+    display:flex;
+    background: none;
+    align-items: center;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background:rgb(39, 37, 37,0.4); 
+}
+
+.nav-list{
+    width:100%;
+    display:flex;  
+}
+
+.nav-list li{
+   list-style:none;
+   padding: 26px 30px;
+   
+}
+
+
+.nav-list li a{
+   text-decoration:none;
+   color:white;
+   margin-right: 0%;
+   margin-left: auto;
+}
+.btn-sm{
+    padding: 5px;
+    vertical-align: middle;
+    text-align:center;
+    font:black;
+    background-position:center;
+    background-size: cover;
+    width: 39px;
+    height: 29px;
+}
+.nav-list li a:hover {
+    text-decoration:none;
+    color:#989898;
+ }
+
+.btn{
+    padding:8px 20px;
+    margin: 7px 0;
+    border: 2px transparent;
+    border-radius: 18px;
+    font-size: 15px;
+    background:none;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.myaccount{
+    width:20%;
+    display:flex;
+    justify-content:right;
+    margin-right: 25px;
+    margin-left: auto;
+    align-items:right;
+    text-align: right;
+}
+.myaccount img{
+    width: 28%;
+    border: 2px solid rgb(16, 15, 9);
+    margin-right: 0%;
+    border-radius: 50px;
+    text-align: right;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: black;
+  overflow: visible;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color:white;}
+
+.show {display: block;}
+
+
+.profile-dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: black;
+  cursor: pointer;
+  border-radius: 50%;
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  margin-right: 35px;
+
+}
+
+
+
+.profile-dropdown {
+
+  position: relative;
+  display: inline-block;
+  
+}
+
+.profile-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+  z-index: 1;
+}
+.profile-dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.profile-dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.main{
+  height:89vh;
+  width:auto;
+  /* background-color: aqua; */
+  background-image : url('/FOS/static/images/Votingmain.jpeg');
+}
+
+.main{
+  height:100vh;
+  width:auto;
+  background-image: linear-gradient(to bottom right, rgb(250, 141, 33) , rgb(55, 173, 49));
+}
+
+.img-cont{
+ 
+  background-color: aqua; 
+  background-size: cover;
+  width:40%;
+  height:50%;
+  position: absolute;
+  border-radius: 10px;
+  top:28%;
+  left:54%;
+  
+}
+
+
+.card1 p{
+  margin-top: 20px;
+  margin-left: -30px;
+  background: transparent;
+}
+
+.card2 p{
+  margin-top: 20px;
+  margin-left: -13px;
+}
+
+.card3 p{
+  margin-top: 20px;
+  margin-left: -3px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Inter:wght@100..900&family=Marck+Script&family=Merienda:wght@300&family=Noto+Sans+Math&family=Slackside+One&display=swap');
+
+.heading{
+  font-family: "Inter", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  position: absolute;
+  top: 38%;
+  left: 5%;
+  text-shadow: 5px 2px #0000;
+  color:#201e1e;
+}
+
+.card1{
+  height:100px;
+  width:170px;
+  cursor: pointer;
+  position: absolute;
+  top:56%;
+  left:7%;
+}
+
+.card2{
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  position: absolute;
+  top:56%;
+  left: 23.5%;
+}
+
+.card3{
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  position: absolute;
+  top:56%;
+  left: 39%;
+}
+
+.votebtn{
+  padding:20px 50px;
+  position: absolute;
+  top:83%;
+  left:19%;
+  border-radius: 15px;
+  font-weight: bold;
+  border: none; 
+  background-color:rgb(232, 173, 109);
+  cursor: pointer;
+}
+
+.votebtn:hover{
+  background-color: burlywood;
+  color: #989898;
+}
+
+.votebtn a{
+text-decoration: none;
+color: black;
+}

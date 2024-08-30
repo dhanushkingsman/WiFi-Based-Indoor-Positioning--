@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Maven+Pro&family=Saira:wght@300&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Maven+Pro&family=Oxygen&family=Saira:wght@300&family=Square+Peg&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+
+  overflow: hidden;
+  
+}
+
+.complete{
+  width:100%;
+  height:100vh;
+  background-image: linear-gradient(to bottom right, rgb(250, 141, 33) , rgb(55, 173, 49));
+}
+.left{
+  height: 55%;
+  width: 60%;
+  position: absolute;
+  top: 23.5%;
+  left:5%;
+  background-color: #3ebd97;
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px rgba(65, 65, 65, 0.2);
+}
+
+.left p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  position: absolute;
+  left: 43%;
+  top: 10%;
+
+}
+
+.left img{
+  position: absolute;
+  left:-12%;
+  height: 100%;
+  width:78%;
+}
+.right{
+  background-color:  #3ebd97;
+}
+.center{
+  background-color:  #3ebd97;
+  position: absolute;
+  top: 50%;
+  left: 83%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  border:solid black 0.5px;
+  color: black;
+  box-shadow: 10px 10px 15px rgba(65, 65, 65, 0.2);
+  border-radius: 20px;
+  border: none;
+}
+.center h1{
+  text-align: center;
+  padding: 20px 0;
+  color: rgb(19, 20, 20);
+  font-family: 'Oxygen', sans-serif;
+  font-size: 23px;
+    
+}
+.center form{
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+form .txt_field{
+  position: relative;
+  border-bottom: 2px solid rgb(19, 20, 20);
+  margin: 30px 0;
+  color: rgb(19, 20, 20);
+}
+.txt_field input{
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  color: rgb(19, 20, 20);
+  border: none;
+  background: none;
+  outline: none;
+
+}
+.txt_field label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: rgb(19, 20, 20);
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: .5s;
+}
+.txt_field span::before{
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  transition: .5s;
+}
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label{
+  top: -5px;
+  color: rgb(19, 20, 20);
+  
+}
+.txt_field input:focus ~ span::before,
+.txt_field input:valid ~ span::before{
+  width: 100%;
+  color: rgb(19, 20, 20);
+}
+
+input[type="submit"]{
+  width: 100%;
+  height: 50px;
+  border: 2px solid;
+  background: transparent;
+  color: rgb(19, 20, 20);
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  border-radius: 20px;
+}
+button{
+    width: 100%;
+    height: 50px;
+    border: 2px solid;
+    background: transparent;
+    color: rgb(19, 20, 20);
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
+button a{
+  color: rgb(19, 20, 20);
+  text-decoration: none;
+}
+button:hover{
+  border-color:#3ebd97;
+  transition: .5s;
+  background-color:rgb(216, 214, 214);
+}
+input[type="submit"]:hover{
+  border-color:#3ebd97;  transition: .5s;
+  background-color:rgb(216, 214, 214);
+}
+.signup_link{
+  margin: 30px 0;
+  text-align: center;
+  font-size: 16px;
+  color: rgb(19, 20, 20);
+}
+.signup_link{
+  color: white;
+  text-decoration: none;
+}
+.signup_link a:hover{
+  text-decoration: underline;
+}
+.lefttext{
+  position: absolute;
+  width: 65%;
+  height: 100vh;
+  background-color: #3ebd97;
+}
+.lefttext p {
+  font-family: 'Square Peg', cursive;
+  font-size: 110px;
+  position: absolute;
+  top:60%;
+  left:20%;
+  color: rgb(19, 20, 20);
+    
+}
+.wel{
+  font-family: 'Square Peg', cursive;
+  font-size: 110px;
+  position: absolute;
+  top:18%;
+  left:20%;
+  color: rgb(19, 20, 20);
+    
+}
+.img{
+  position: absolute;
+  width:400px;
+  top: 22%;
+  left:27%;
+}
+.adb{
+  width: 10%;
+  height:10%;
+  position: absolute;
+  right:0%;
+
+}
+.adb button a{
+ 
+
+  color:rgb(19, 20, 20);
+}
